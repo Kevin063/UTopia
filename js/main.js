@@ -219,3 +219,12 @@ Author Email:   layerdrops@gmail.com
     });
 })(jQuery);
 
+function scrollToTarget() {
+    const targetElement = document.getElementById("target");
+    
+    // 使用scrollIntoView方法滚动到目标位置
+    targetElement.scrollIntoView({
+        behavior: "smooth", // 使用平滑滚动效果
+        block: "start" // 滚动到目标元素的顶部
+    });
+}

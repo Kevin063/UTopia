@@ -4546,7 +4546,7 @@ a:hover {
 
 /*==== footer-area ===*/
 .footer-area {
-    background-image: url("../images/footer-bg.jpg");
+    background-image: url("../images/footer-bg.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
